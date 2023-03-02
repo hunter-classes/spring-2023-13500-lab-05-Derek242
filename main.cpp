@@ -1,5 +1,16 @@
+/*
+Author: Derek Ni
+Course: CSCI-135
+Instructor: Micheal Zamansky
+Assignment: Lab 5
+
+Description: Finished up Lab 5
+*/
+
+
 #include <iostream>
 #include "funcs.h"
+
 
 int main()
 { 
