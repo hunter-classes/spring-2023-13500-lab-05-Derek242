@@ -117,7 +117,7 @@
 #define DOCTEST_CLANG_SUPPRESS_WARNING_PUSH _Pragma("clang diagnostic push")
 #define DOCTEST_CLANG_SUPPRESS_WARNING(w) DOCTEST_PRAGMA_TO_STR(clang diagnostic ignored w)
 #define DOCTEST_CLANG_SUPPRESS_WARNING_POP _Pragma("clang diagnostic pop")
-#define DOCTEST_CLANG_SUPPRESS_WARNING_WITH_PUSH(w)                                                \
+#define DOCTEST_CLANG_SUPPRESS_WARNING_WITH_PUSH(w)                                                
     DOCTEST_CLANG_SUPPRESS_WARNING_PUSH DOCTEST_CLANG_SUPPRESS_WARNING(w)
 #else // DOCTEST_CLANG
 #define DOCTEST_CLANG_SUPPRESS_WARNING_PUSH
